@@ -109,3 +109,6 @@ local.properties
 *.war
 *.ear
 **/*~
+
+# Ignore Gradle build output directory
+build
