@@ -22,6 +22,6 @@ public class ZithiumChatColor extends JavaPlugin {
     private void loadCommands(){
         getLogger().log(Level.INFO, "Loading command manager...");
         CommandManager commandManager = new CommandManager(this);
-        commandManager.register(new ChatColorCommand());
+        commandManager.register(new ChatColorCommand(this));
     }
 }
