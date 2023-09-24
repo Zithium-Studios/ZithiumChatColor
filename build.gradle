@@ -22,7 +22,7 @@ dependencies {
     // Internal APIs
     implementation 'me.mattstudios.utils:matt-framework:1.4.6'
     implementation 'dev.triumphteam:triumph-gui:3.1.5'
-    implementation 'com.github.ItzSave:ZithiumLibrary:v1.0.1'
+    implementation 'com.github.ItzSave:ZithiumLibrary:v1.0.2'
 
 }
 
