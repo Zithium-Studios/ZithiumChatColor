@@ -1,16 +1,11 @@
 package net.zithium.chatcolor.player;
 
-import net.zithium.chatcolor.ZithiumChatColor;
-
 import java.util.UUID;
 
-public interface PlayerData {
+public class PlayerData {
 
-    boolean onEnable(final ZithiumChatColor plugin);
+    public PlayerData(UUID uuid, String chatColor){
 
-    void onDisable();
+    }
 
-    PlayerData getPlayer(final UUID uuid);
-
-    void savePlayer(final PlayerData playerData);
 }

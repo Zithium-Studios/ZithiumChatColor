@@ -1,3 +1,7 @@
 name: ZithiumChatColor
 main: net.zithium.chatcolor.ZithiumChatColor
 version: '${version}'
+
+commands:
+  chatcolor:
+    description: Opens up the chat color gui

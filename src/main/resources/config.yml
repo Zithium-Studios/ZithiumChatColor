@@ -1,0 +1,11 @@
+# Zithium ChatColor
+
+settings:
+
+
+
+menu:
+  title: "Select a Chat Color"
+  rows: 3
+
+  fillers:
